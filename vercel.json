@@ -1,0 +1,3 @@
+{
+  "installCommand": "npm install --loglevel verbose || (echo '=================== NPM DEBUG LOG ===================' && cat /vercel/.npm/_logs/*-debug-0.log && exit 1)"
+}

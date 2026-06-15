@@ -16,7 +16,7 @@ const TS_HOST = "https://172.32.81.154:8443/";
 // const TS_HOST = `http://localhost:3000`;
 const getToken = (username: string, password: string) => {
   console.log("getToken function");
-  return fetch(`http://localhost:3000/api/rest/2.0/auth/token/full`, {
+  return fetch(`http://172.32.81.154:8443/api/rest/2.0/auth/token/full`, {
     headers: {
       "content-type": "application/json",
     },
